@@ -14,7 +14,7 @@ Now that all databases have been migrated to Aurora, it's time to update the DNS
 nslookup wordpress-db
 ```
 
-3. Let's create a variable (ADDR) using the RDS endpoint. See again at step 25 of [Finnalize Cutover and archive servers](4-migratinginfrastructu4.2-migratingyourdataba4.2.1-createaurorafinaltargetdatabases).
+3. Let's create a variable (ADDR) using the RDS endpoint. See again at step 25 of [Finnalize Cutover and archive servers](../4.2.1-createaurorafinaltargetdatabases)
 ```
 ADDR="<REPLACE THIS WITH WORDPRESS ENDPOINT>"
 ```

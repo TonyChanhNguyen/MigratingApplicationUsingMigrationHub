@@ -17,14 +17,14 @@ pre : " <b> 4.1 </b> "
 + Automated migration to minimize IT resources and project length.
 
 ### Content
-+ 4.1.1 [Configure AWS MGN service](4.1.1-configureawsmgnservice/)
-+ 4.1.2 [Configure default target templates](4.1.2-configuredefaulttargettemplates/)
-+ 4.1.3 [Create AWS replication agent IAM user](../4.1.3-createawsreplicationagentiamuser/)
-+ 4.1.4 [Install AWS replication agent](../4.1.4-installawsreplicationagent/)
-+ 4.1.5 [AWS MGN migration lifecycle](../4.1.5-awsmgnmigrationlifecycle/)
-+ 4.1.6 [Launch test instance](../4.1.6-launchtestinstance/)
-+ 4.1.7 [Shutdown source environment](../4.1.7-shutdownsourceenvironment/)
-+ 4.1.8 [Launch cutover instance](../4.1.8-launchcutoverinstance/)
-+ 4.1.9 [Update DNS and validate the applications](../4.1.9-updatednsandvalidatetheapplications/)
-+ 4.1.10 [Finnalize Cutover and archive servers](../4.1.10-finalizecutoverandarchiveservers/)
++ 4.1.1 [Configure AWS MGN service](4.1.1-configureawsmgnservi)
++ 4.1.2 [Configure default target templates](4.1.2-configuredefaulttargettemplat)
++ 4.1.3 [Create AWS replication agent IAM user](4.1.3-createawsreplicationagentiamus)
++ 4.1.4 [Install AWS replication agent](4.1.4-installawsreplicationage)
++ 4.1.5 [AWS MGN migration lifecycle](4.1.5-awsmgnmigrationlifecyc)
++ 4.1.6 [Launch test instance](4.1.6-launchtestinstan)
++ 4.1.7 [Shutdown source environment](4.1.7-shutdownsourceenvironme)
++ 4.1.8 [Launch cutover instance](4.1.8-launchcutoverinstan)
++ 4.1.9 [Update DNS and validate the applications](4.1.9-updatednsandvalidatetheapplicatio)
++ 4.1.10 [Finnalize Cutover and archive servers](4.1.10-finalizecutoverandarchiveserve)
 
