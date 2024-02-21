@@ -23,9 +23,9 @@ Amazon Aurora nhanh hơn tới năm lần so với cơ sở dữ liệu MySQL ti
 + Cập nhật bản ghi DNS để phản ánh sự dịch chuyển
 
 ### Content
-+ 4.2.1 [Tạo cơ sở dữ liệu target Aurora cuối cùng](4-migratinginfrastructu4.2-migratingyourdataba4.2.1-createaurorafinaltargetdatabases)
-+ 4.2.2 [Tạo replication subnet groups](4-migratinginfrastructu4.2-migratingyourdataba4.2.2-createreplicaitonsubnetgrou)
-+ 4.2.3 [Tạo một replication instance](4-migratinginfrastructu4.2-migratingyourdataba4.2.3-createareplicationinstance)
-+ 4.2.4 [Chỉ định endpoint của source và target](4-migratinginfrastructu4.2-migratingyourdataba4.2.4-specifysourceandtargetendpoints)
-+ 4.2.5 [Tạo và giám sát các tác vụ](4-migratinginfrastructu4.2-migratingyourdataba4.2.5-createandmonitorthetas)
-+ 4.2.6 [Tắt máy chủ nguồn và cập nhật DNS](4-migratinginfrastructu4.2-migratingyourdataba4.2.6-shutdownsourceserverandupdated)
++ 4.2.1 [Tạo cơ sở dữ liệu target Aurora cuối cùng](4.2.1-createaurorafinaltargetdatabases)
++ 4.2.2 [Tạo replication subnet groups](4.2.2-createreplicaitonsubnetgroups/)
++ 4.2.3 [Tạo một replication instance](4.2.3-createareplicationinstance)
++ 4.2.4 [Chỉ định endpoint của source và target](4.2.4-specifysourceandtargetendpoints)
++ 4.2.5 [Tạo và giám sát các tác vụ](4.2.5-createandmonitorthetasks/)
++ 4.2.6 [Tắt máy chủ nguồn và cập nhật DNS](4.2.6-shutdownsourceserverandupdatedns/)

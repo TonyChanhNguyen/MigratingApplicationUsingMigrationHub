@@ -23,9 +23,9 @@ Amazon Aurora is up to five times faster than standard MySQL databases and three
 + Update the DNS records to reflect the migration
 
 ### Content
-+ 4.2.1 [Finnalize Cutover and archive servers](4-migratinginfrastructu4.2-migratingyourdataba4.2.1-createaurorafinaltargetdatabases)
-+ 4.2.2 [Create replication subnet groups](4-migratinginfrastructu4.2-migratingyourdataba4.2.2-createreplicaitonsubnetgrou)
-+ 4.2.3 [Create a replication instance](4-migratinginfrastructu4.2-migratingyourdataba4.2.3-createareplicationinstance)
-+ 4.2.4 [Specify source and target endpoints](4-migratinginfrastructu4.2-migratingyourdataba4.2.4-specifysourceandtargetendpoints)
-+ 4.2.5 [Create and monitor the tasks](4-migratinginfrastructu4.2-migratingyourdataba4.2.5-createandmonitorthetas)
-+ 4.2.6 [Shut down source server and update DNS](4-migratinginfrastructu4.2-migratingyourdataba4.2.6-shutdownsourceserverandupdated)
++ 4.2.1 [Finnalize Cutover and archive servers](4.2.1-createaurorafinaltargetdatabases)
++ 4.2.2 [Create replication subnet groups](4.2.2-createreplicaitonsubnetgroups/)
++ 4.2.3 [Create a replication instance](4.2.3-createareplicationinstance)
++ 4.2.4 [Specify source and target endpoints](4.2.4-specifysourceandtargetendpoints)
++ 4.2.5 [Create and monitor the tasks](4.2.5-createandmonitorthetasks/)
++ 4.2.6 [Shut down source server and update DNS](4.2.6-shutdownsourceserverandupdatedns/)
