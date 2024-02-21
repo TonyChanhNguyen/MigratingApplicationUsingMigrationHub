@@ -22,10 +22,10 @@ The current production environment running on-premise is comprised of 2 applicat
 
 2. You should be able to visualize these 2 web applications:
 ###[Wordpress
-![Explore environment](/images/2.prerequires/2.4exploreenv/2.4.1exploreenv.png?width=90pc)
+![Explore environment](../../images/2.prerequires/2.4exploreenv/2.4.1exploreenv.png?width=90pc)
 
 ### OFBiz
-![Explore environment](/images/2.prerequires/2.4exploreenv/2.4.2exploreenv.png?width=90pc)
+![Explore environment](../../images/2.prerequires/2.4exploreenv/2.4.2exploreenv.png?width=90pc)
 You can log into the OFBiz application using the following username and password:
 |Application |Test URL                                              |App username  |App password |
 |------------|------------------------------------------------------|--------------|-------------|

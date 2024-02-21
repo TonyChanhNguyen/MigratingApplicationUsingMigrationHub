@@ -10,16 +10,16 @@ In this step, we will create a public key pair to provide for CloudFormation tem
 
 1. Go to [Key Pair](https://us-west-2.console.aws.amazon.com/ec2/home?region=us-west-2#KeyPairs:) of region ***Oregon (us-west-2)***
 2. Click **Create Key Pair**.
-![Create Key Pair](/images/2.prerequires/2.1createkeypair/2.1.1createkeypair.png?width=90pc)
+![Create Key Pair](../../images/2.prerequires/2.1createkeypair/2.1.1createkeypair.png?width=90pc)
 
 3. At **Name** field, input ```FCJ-keypair```.
 4. At **Key pair type**, select **RSA**.
 5. At **Private key file format**, select **.pem**.
 6. Then click on **Create key pair**.
-![Create Key Pair](/images/2.prerequires/2.1createkeypair/2.1.2.1createkeypair.png?width=90pc)
+![Create Key Pair](../../images/2.prerequires/2.1createkeypair/2.1.2.1createkeypair.png?width=90pc)
 
 7. Check your key pair created successful.
-![Create Key Pair](/images/2.prerequires/2.1createkeypair/2.1.3createkeypair.png?width=90pc)
+![Create Key Pair](../../images/2.prerequires/2.1createkeypair/2.1.3createkeypair.png?width=90pc)
 
  {{%notice warning%}}
 Make sure that your key pair file had been downloaded automatically.
@@ -35,6 +35,6 @@ Choose **All file** to see **FCJ-keypair.pem**.
 
 11. Keep blank at **Key comment**.
 12. Copy public key.
-![Create Key Pair](/images/2.prerequires/2.1createkeypair/2.1.6createkeypair.png?width=30pc)
+![Create Key Pair](../../images/2.prerequires/2.1createkeypair/2.1.6createkeypair.png?width=30pc)
 13. Save it for using later.
 

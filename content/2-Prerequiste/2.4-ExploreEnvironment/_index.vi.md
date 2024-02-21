@@ -22,10 +22,10 @@ Môi trường sản phẩm chạy trên on-premise hiện tại bao gồm 2 ứ
 
 2. Bạn sẽ có thể hình dung được 2 ứng dụng web này: 
 ### Wordpress
-![Explore environment](/images/2.prerequires/2.4exploreenv/2.4.1exploreenv.png?width=90pc)
+![Explore environment](../../../images/2.prerequires/2.4exploreenv/2.4.1exploreenv.png?width=90pc)
 
 ### OFBiz
-![Explore environment](/images/2.prerequires/2.4exploreenv/2.4.2exploreenv.png?width=90pc)
+![Explore environment](../../../images/2.prerequires/2.4exploreenv/2.4.2exploreenv.png?width=90pc)
 Bạn có thể đăng nhập vào ứng dụng OFBiz sử dụng username và password dưới đây:
 |Application |Test URL                                              |App username  |App password |
 |------------|------------------------------------------------------|--------------|-------------|
