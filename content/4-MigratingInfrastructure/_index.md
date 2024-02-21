@@ -6,7 +6,7 @@ chapter : false
 pre : " <b> 4. </b> "
 ---
 
-After discovering your existing infrastructure, we will perform migrate it in AWS without downtime.
+After discovering and receiving recommendations your existing infrastructure, we will perform migrate it in AWS without downtime.
 
 ### Content
 + 4.1 [Migrating your application](../4-migratinginfrastructure/4.1-migratingyourapplication/)

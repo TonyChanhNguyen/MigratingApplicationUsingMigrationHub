@@ -9,24 +9,24 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Migrate infrastructure  :: AWS System Manager</title>
+    <title>Migrate infrastructure  :: Migrating application using Migration Hub</title>
 
     
-    <link href="/css/nucleus.css?1707202998" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1707202998" rel="stylesheet">
-    <link href="/css/hybrid.css?1707202998" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1707202998" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1707202998" rel="stylesheet">
-    <link href="/css/auto-complete.css?1707202998" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1707202998" rel="stylesheet">
-    <link href="/css/theme.css?1707202998" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1707202998" rel="stylesheet">
+    <link href="/css/nucleus.css?1708517753" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1708517753" rel="stylesheet">
+    <link href="/css/hybrid.css?1708517753" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1708517753" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1708517753" rel="stylesheet">
+    <link href="/css/auto-complete.css?1708517753" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1708517753" rel="stylesheet">
+    <link href="/css/theme.css?1708517753" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1708517753" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1707202998" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1708517753" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1707202998"></script>
+    <script src="/js/jquery-3.3.1.min.js?1708517753"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1707202998"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1707202998"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1708517753"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1708517753"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1707202998"></script>
+<script type="text/javascript" src="/js/search.js?1708517753"></script>
 
     
   </div>
@@ -1170,9 +1170,10 @@
         <br>
             <b> Team </b> <br>
            
-            <i> <a href="https://www.linkedin.com/in/sutrinh/"  style="color:orange">Sử Trịnh  </a> <br>
+            <i> 
                 <a href="https://www.linkedin.com/in/jotaguy"  style="color:orange">Gia Hưng </a> <br>
-                <a href="https://www.linkedin.com/in/hiepnguyendt"  style="color:orange">Thanh Hiệp </a>
+                <a href="https://www.linkedin.com/in/vanhoangkha/"  style="color:orange">Hoàng Kha  </a> <br>
+                <a href="https://www.linkedin.com/in/tonychanhnguyen/"  style="color:orange">Minh Chánh </a>
                
         </i>
         </left>
@@ -1268,7 +1269,7 @@
 	<h3 id="mgn">MGN</h3>
 <p><a href="https://aws.amazon.com/application-migration-service/">AWS Application Migration Service (AWS MGN)</a> is a highly automated solution that simplifies, expedites, and reduces the cost of migrating and modernizing applications. It allows companies to migrate a large number of physical, virtual, and cloud servers without compatibility issues, performance disruption, or long cutover windows. AWS MGN continuously replicates source servers to your AWS account. When you’re ready, it automatically converts and launches your servers on AWS so you can quickly benefit from the cost savings, productivity, resilience, and agility of the Cloud. In addition, AWS MGN allows you to modernize launched applications by running pre-configured actions.</p>
 <h3 id="how-it-works">How it works?</h3>
-<p><img src="/images/4.migrateinfra/4.1migrateapp/4.1.1migrateapp.png?width=90pc" alt="Migrating your application"></p>
+<p><img src="../../images/4.migrateinfra/4.1migrateapp/4.1.1migrateapp.png?width=90pc" alt="Migrating your application"></p>
 <h3 id="benefits-of-application-migration-service-include">Benefits of Application Migration Service include:</h3>
 <ul>
 <li>Cutover windows of minutes and no data loss.</li>
@@ -1278,16 +1279,16 @@
 </ul>
 <h3 id="content">Content</h3>
 <ul>
-<li>4.1.1 <a href="../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.1-configureawsmgnservice/">Configure AWS MGN service</a></li>
-<li>4.1.2 <a href="../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.2-configuredefaulttargettemplates/">Configure default target templates</a></li>
-<li>4.1.3 <a href="../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.3-createawsreplicationagentiamuser/">Create AWS replication agent IAM user</a></li>
-<li>4.1.4 <a href="../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.4-installawsreplicationagent/">Install AWS replication agent</a></li>
-<li>4.1.5 <a href="../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.5-awsmgnmigrationlifecycle/">AWS MGN migration lifecycle</a></li>
-<li>4.1.6 <a href="../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.6-launchtestinstance/">Launch test instance</a></li>
-<li>4.1.7 <a href="../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.7-shutdownsourceenvironment/">Shutdown source environment</a></li>
-<li>4.1.8 <a href="../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.8-launchcutoverinstance/">Launch cutover instance</a></li>
-<li>4.1.9 <a href="../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.9-updatednsandvalidatetheapplications/">Update DNS and validate the applications</a></li>
-<li>4.1.10 <a href="../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.10-finalizecutoverandarchiveservers/">Finnalize Cutover and archive servers</a></li>
+<li>4.1.1 <a href="4-migratinginfrastructu4.1-migratingyourapplicati4.1.1-configureawsmgnservi">Configure AWS MGN service</a></li>
+<li>4.1.2 <a href="4-migratinginfrastructu4.1-migratingyourapplicati4.1.2-configuredefaulttargettemplat">Configure default target templates</a></li>
+<li>4.1.3 <a href="4-migratinginfrastructu4.1-migratingyourapplicati4.1.3-createawsreplicationagentiamus">Create AWS replication agent IAM user</a></li>
+<li>4.1.4 <a href="4-migratinginfrastructu4.1-migratingyourapplicati4.1.4-installawsreplicationage">Install AWS replication agent</a></li>
+<li>4.1.5 <a href="4-migratinginfrastructu4.1-migratingyourapplicati4.1.5-awsmgnmigrationlifecyc">AWS MGN migration lifecycle</a></li>
+<li>4.1.6 <a href="4-migratinginfrastructu4.1-migratingyourapplicati4.1.6-launchtestinstan">Launch test instance</a></li>
+<li>4.1.7 <a href="4-migratinginfrastructu4.1-migratingyourapplicati4.1.7-shutdownsourceenvironme">Shutdown source environment</a></li>
+<li>4.1.8 <a href="4-migratinginfrastructu4.1-migratingyourapplicati4.1.8-launchcutoverinstan">Launch cutover instance</a></li>
+<li>4.1.9 <a href="4-migratinginfrastructu4.1-migratingyourapplicati4.1.9-updatednsandvalidatetheapplicatio">Update DNS and validate the applications</a></li>
+<li>4.1.10 <a href="4-migratinginfrastructu4.1-migratingyourapplicati4.1.10-finalizecutoverandarchiveserve">Finnalize Cutover and archive servers</a></li>
 </ul>
 
 
@@ -1908,19 +1909,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1707202998"></script>
-    <script src="/js/perfect-scrollbar.min.js?1707202998"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1707202998"></script>
-    <script src="/js/jquery.sticky.js?1707202998"></script>
-    <script src="/js/featherlight.min.js?1707202998"></script>
-    <script src="/js/highlight.pack.js?1707202998"></script>
+    <script src="/js/clipboard.min.js?1708517753"></script>
+    <script src="/js/perfect-scrollbar.min.js?1708517753"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1708517753"></script>
+    <script src="/js/jquery.sticky.js?1708517753"></script>
+    <script src="/js/featherlight.min.js?1708517753"></script>
+    <script src="/js/highlight.pack.js?1708517753"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1707202998"></script>
-    <script src="/js/learn.js?1707202998"></script>
-    <script src="/js/hugo-learn.js?1707202998"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1708517753"></script>
+    <script src="/js/learn.js?1708517753"></script>
+    <script src="/js/hugo-learn.js?1708517753"></script>
 
-    <link href="/mermaid/mermaid.css?1707202998" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1707202998"></script>
+    <link href="/mermaid/mermaid.css?1708517753" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1708517753"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

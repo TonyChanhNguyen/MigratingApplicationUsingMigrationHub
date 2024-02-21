@@ -6,7 +6,7 @@ chapter : false
 pre : " <b> 3.2 </b> "
 ---
 
-1. Log in to Bastion Host same as step 10 of [Connect to Bastion Host](../../2-Prerequiste/2.3-connecttobastionhost/). Use Putty icon on the Bastion host desktop to connect to each server:
+1. Log in to Bastion Host same as step 10 of [Connect to Bastion Host](../../2-prerequiste/2.3-connecttobastionhost/). Use Putty icon on the Bastion host desktop to connect to each server:
 |Application        |FQDN                          |OS      |Username   |Password |
 |-------------------|------------------------------|--------|-----------|---------|
 | wordpress-web     |wordpress-web.onpremsim.env   |Centos7 |user       |12345678 |

@@ -6,7 +6,7 @@ chapter : false
 pre : " <b> 3.2 </b> "
 ---
 
-1. Đăng nhập vào máy chủ Bastion Host giống bước 10 của [Kết nối máy chủ Bastion Host](../../2-Prerequiste/2.3-connecttobastionhost/). Sử dụng Putty trong màn hình máy chủ Bastion host để kết nối tới mỗi máy chủ:
+1. Đăng nhập vào máy chủ Bastion Host giống bước 10 của [Kết nối máy chủ Bastion Host](../../2-prerequiste/2.3-connecttobastionhost/). Sử dụng Putty trong màn hình máy chủ Bastion host để kết nối tới mỗi máy chủ:
 |Application        |FQDN                          |OS      |Username   |Password |
 |-------------------|------------------------------|--------|-----------|---------|
 | wordpress-web     |wordpress-web.onpremsim.env   |Centos7 |user       |12345678 |

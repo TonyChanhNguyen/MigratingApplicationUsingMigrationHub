@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Browse discovered data  on AWS System Manager</title>
+    <title>Browse discovered data  on Migrating application using Migration Hub</title>
     <link>/3-discoveryexistinginfrastructure/3.3-browsediscovereddata/</link>
-    <description>Recent content in Browse discovered data  on AWS System Manager</description>
+    <description>Recent content in Browse discovered data  on Migrating application using Migration Hub</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/3-discoveryexistinginfrastructure/3.3-browsediscovereddata/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

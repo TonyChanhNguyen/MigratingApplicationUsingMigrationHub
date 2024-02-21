@@ -14,7 +14,7 @@ Bây giờ tất cả CSDL của bạn đã được dịch chuyển lên Aurora
 nslookup wordpress-db
 ```
 
-3. Tạo biến tên (ADDR) sử dụng điểm cuối RDS. Xem lại bước 25 của [Create Aurora final target database](../4.2.1-CreateAuroraFinalTargetDatabases/).
+3. Tạo biến tên (ADDR) sử dụng điểm cuối RDS. Xem lại bước 25 của [Tạo cơ sở dữ liệu target Aurora cuối cùng](4-migratinginfrastructu4.2-migratingyourdataba4.2.1-createaurorafinaltargetdatabases).
 ```
 ADDR="<REPLACE THIS WITH WORDPRESS ENDPOINT>"
 ```

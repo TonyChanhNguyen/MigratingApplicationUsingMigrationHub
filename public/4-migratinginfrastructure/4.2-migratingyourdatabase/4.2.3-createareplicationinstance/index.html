@@ -9,24 +9,24 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Create a replication instance  :: AWS System Manager</title>
+    <title>Create a replication instance  :: Migrating application using Migration Hub</title>
 
     
-    <link href="/css/nucleus.css?1707202998" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1707202998" rel="stylesheet">
-    <link href="/css/hybrid.css?1707202998" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1707202998" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1707202998" rel="stylesheet">
-    <link href="/css/auto-complete.css?1707202998" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1707202998" rel="stylesheet">
-    <link href="/css/theme.css?1707202998" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1707202998" rel="stylesheet">
+    <link href="/css/nucleus.css?1708517753" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1708517753" rel="stylesheet">
+    <link href="/css/hybrid.css?1708517753" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1708517753" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1708517753" rel="stylesheet">
+    <link href="/css/auto-complete.css?1708517753" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1708517753" rel="stylesheet">
+    <link href="/css/theme.css?1708517753" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1708517753" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1707202998" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1708517753" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1707202998"></script>
+    <script src="/js/jquery-3.3.1.min.js?1708517753"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1707202998"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1707202998"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1708517753"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1708517753"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1707202998"></script>
+<script type="text/javascript" src="/js/search.js?1708517753"></script>
 
     
   </div>
@@ -1170,9 +1170,10 @@
         <br>
             <b> Team </b> <br>
            
-            <i> <a href="https://www.linkedin.com/in/sutrinh/"  style="color:orange">Sử Trịnh  </a> <br>
+            <i> 
                 <a href="https://www.linkedin.com/in/jotaguy"  style="color:orange">Gia Hưng </a> <br>
-                <a href="https://www.linkedin.com/in/hiepnguyendt"  style="color:orange">Thanh Hiệp </a>
+                <a href="https://www.linkedin.com/in/vanhoangkha/"  style="color:orange">Hoàng Kha  </a> <br>
+                <a href="https://www.linkedin.com/in/tonychanhnguyen/"  style="color:orange">Minh Chánh </a>
                
         </i>
         </left>
@@ -1267,7 +1268,7 @@
 </li>
 <li>
 <p>Click on <strong>Create replication instance</strong>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.3replicationinstances/4.2.3.1replicationinstances.png?width=89pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.3replicationinstances/4.2.3.1replicationinstances.png?width=89pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>At <strong>Name</strong>, input <code>MID-REPINST-WP</code>.</p>
@@ -1283,7 +1284,7 @@
 </li>
 <li>
 <p>At <strong>Multi AZ</strong>, select <strong>Dev or Test workload (Single-AZ)</strong>
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.3replicationinstances/4.2.3.2replicationinstances.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.3replicationinstances/4.2.3.2replicationinstances.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>At <strong>Virtual private cloud (VPC) for IPv4</strong>, select <strong>Source</strong>.</p>
@@ -1302,12 +1303,12 @@
 </li>
 <li>
 <p>At <strong>VPC security groups</strong>, select <strong>default</strong> and <strong>FCJ-MigrationHub-Workshop-SOURCENETWORK-XXXXXXXXXXXX-SourceSecurityGroup-XXXXXXXXXXXXX</strong>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.3replicationinstances/4.2.3.3replicationinstances.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.3replicationinstances/4.2.3.3replicationinstances.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>Then, click on <strong>Create replication instance</strong>.
 Now, wait for status &ldquo;Available&rdquo; in the Replication instance that you just created:
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.3replicationinstances/4.2.3.4replicationinstances.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.3replicationinstances/4.2.3.4replicationinstances.png?width=90pc" alt="Migrate your database"></p>
 </li>
 </ol>
 
@@ -1936,19 +1937,19 @@ Now, wait for status &ldquo;Available&rdquo; in the Replication instance that yo
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1707202998"></script>
-    <script src="/js/perfect-scrollbar.min.js?1707202998"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1707202998"></script>
-    <script src="/js/jquery.sticky.js?1707202998"></script>
-    <script src="/js/featherlight.min.js?1707202998"></script>
-    <script src="/js/highlight.pack.js?1707202998"></script>
+    <script src="/js/clipboard.min.js?1708517753"></script>
+    <script src="/js/perfect-scrollbar.min.js?1708517753"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1708517753"></script>
+    <script src="/js/jquery.sticky.js?1708517753"></script>
+    <script src="/js/featherlight.min.js?1708517753"></script>
+    <script src="/js/highlight.pack.js?1708517753"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1707202998"></script>
-    <script src="/js/learn.js?1707202998"></script>
-    <script src="/js/hugo-learn.js?1707202998"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1708517753"></script>
+    <script src="/js/learn.js?1708517753"></script>
+    <script src="/js/hugo-learn.js?1708517753"></script>
 
-    <link href="/mermaid/mermaid.css?1707202998" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1707202998"></script>
+    <link href="/mermaid/mermaid.css?1708517753" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1708517753"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

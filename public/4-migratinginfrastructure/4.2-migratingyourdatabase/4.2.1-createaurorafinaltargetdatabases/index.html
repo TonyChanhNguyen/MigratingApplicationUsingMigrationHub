@@ -9,24 +9,24 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Create Aurora final target database  :: AWS System Manager</title>
+    <title>Create Aurora final target database  :: Migrating application using Migration Hub</title>
 
     
-    <link href="/css/nucleus.css?1707202998" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1707202998" rel="stylesheet">
-    <link href="/css/hybrid.css?1707202998" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1707202998" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1707202998" rel="stylesheet">
-    <link href="/css/auto-complete.css?1707202998" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1707202998" rel="stylesheet">
-    <link href="/css/theme.css?1707202998" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1707202998" rel="stylesheet">
+    <link href="/css/nucleus.css?1708517753" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1708517753" rel="stylesheet">
+    <link href="/css/hybrid.css?1708517753" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1708517753" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1708517753" rel="stylesheet">
+    <link href="/css/auto-complete.css?1708517753" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1708517753" rel="stylesheet">
+    <link href="/css/theme.css?1708517753" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1708517753" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1707202998" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1708517753" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1707202998"></script>
+    <script src="/js/jquery-3.3.1.min.js?1708517753"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1707202998"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1707202998"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1708517753"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1708517753"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1707202998"></script>
+<script type="text/javascript" src="/js/search.js?1708517753"></script>
 
     
   </div>
@@ -1170,9 +1170,10 @@
         <br>
             <b> Team </b> <br>
            
-            <i> <a href="https://www.linkedin.com/in/sutrinh/"  style="color:orange">Sử Trịnh  </a> <br>
+            <i> 
                 <a href="https://www.linkedin.com/in/jotaguy"  style="color:orange">Gia Hưng </a> <br>
-                <a href="https://www.linkedin.com/in/hiepnguyendt"  style="color:orange">Thanh Hiệp </a>
+                <a href="https://www.linkedin.com/in/vanhoangkha/"  style="color:orange">Hoàng Kha  </a> <br>
+                <a href="https://www.linkedin.com/in/tonychanhnguyen/"  style="color:orange">Minh Chánh </a>
                
         </i>
         </left>
@@ -1266,14 +1267,14 @@
 </li>
 <li>
 <p>Click on <strong>Create database</strong>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.1createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.1createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>At <strong>Choose a database creation method</strong>, choose <strong>Standard create</strong>.</p>
 </li>
 <li>
 <p>At <strong>Engine options</strong>, choose <strong>Aurora (MySQL Compatible)</strong>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.2createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.2createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>At <strong>Available versions</strong>, choose <strong>Aurora(MySQL 5.7)2.11.4</strong> or its latest version.</p>
@@ -1286,14 +1287,14 @@
 </li>
 <li>
 <p>At <strong>Master username</strong>, input <code>admin</code>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.3createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.3createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>At <strong>Master password</strong>, input <code>12345678</code>.</p>
 </li>
 <li>
 <p>Repeat password at <strong>Confirm master password</strong>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.4createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.4createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>At <strong>DB instance class</strong>, choose <strong>Burstable classes (includes t classes)</strong>.</p>
@@ -1303,7 +1304,7 @@
 </li>
 <li>
 <p>At <strong>Multi-AZ deployment</strong>, select <strong>Don&rsquo;t create an Aurora Replica</strong>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.5createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.5createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>At <strong>Virtual private cloud (VPC)</strong>, choose <strong>Target</strong> VPC.</p>
@@ -1319,7 +1320,7 @@
 </li>
 <li>
 <p>At <strong>Availability Zone</strong>, choose <strong>us-west-2a</strong>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.6createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.6createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>At <strong>Database authentication option</strong>, select <strong>Password authentication</strong>.</p>
@@ -1329,27 +1330,27 @@
 </li>
 <li>
 <p>Expand <strong>Additional configuration</strong>, at <strong>Initial database name</strong> set <code>wordpressdb</code>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.7createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.7createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>At <strong>Encryption</strong>, uncheck <strong>Enable encryption</strong>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.8createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.8createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>Then, click on <strong>Create database</strong>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.9createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.9createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>Wait until the <strong>Available</strong> status.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.10createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.10createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>Click on <strong>wordpressdb Writer</strong> database and write down the endpoint.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.11createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.11createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>From Bastion Host, SSH to server <strong>wordpress-db</strong>.
-<img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.12createaurora.png?width=90pc" alt="Migrate your database"></p>
+<img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.12createaurora.png?width=90pc" alt="Migrate your database"></p>
 </li>
 <li>
 <p>Run the following command to create the wordpress user in your new Aurora database.</p>
@@ -1366,7 +1367,7 @@
 GRANT ALL ON wordpressdb.* TO &#39;wordpress&#39;@&#39;%&#39;;
 FLUSH PRIVILEGES;
 QUIT
-</code></pre><p><img src="/images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.13createaurora.png?width=90pc" alt="Migrate your database"></p>
+</code></pre><p><img src="../../../images/4.migrateinfra/4.2migratedb/4.2.1createaurora/4.2.1.13createaurora.png?width=90pc" alt="Migrate your database"></p>
 
 
 
@@ -1990,19 +1991,19 @@ QUIT
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1707202998"></script>
-    <script src="/js/perfect-scrollbar.min.js?1707202998"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1707202998"></script>
-    <script src="/js/jquery.sticky.js?1707202998"></script>
-    <script src="/js/featherlight.min.js?1707202998"></script>
-    <script src="/js/highlight.pack.js?1707202998"></script>
+    <script src="/js/clipboard.min.js?1708517753"></script>
+    <script src="/js/perfect-scrollbar.min.js?1708517753"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1708517753"></script>
+    <script src="/js/jquery.sticky.js?1708517753"></script>
+    <script src="/js/featherlight.min.js?1708517753"></script>
+    <script src="/js/highlight.pack.js?1708517753"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1707202998"></script>
-    <script src="/js/learn.js?1707202998"></script>
-    <script src="/js/hugo-learn.js?1707202998"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1708517753"></script>
+    <script src="/js/learn.js?1708517753"></script>
+    <script src="/js/hugo-learn.js?1708517753"></script>
 
-    <link href="/mermaid/mermaid.css?1707202998" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1707202998"></script>
+    <link href="/mermaid/mermaid.css?1708517753" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1708517753"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -20,13 +20,13 @@ pre : " <b> 4.1 </b> "
 + Tự động hóa việc dịch chuyển để giảm thiểu tài nguyên và thời gian thực hiện dự án CNTT.
 
 ### Nội dung
-+ 4.1.1 [Cấu hình dịch vụ AWS MGN](../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.1-configureawsmgnservice/)
-+ 4.1.2 [Cấu hình target template mặc định](../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.2-configuredefaulttargettemplates/)
-+ 4.1.3 [Tạo IAM user cho AWS replication agent](../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.3-createawsreplicationagentiamuser/)
-+ 4.1.4 [Tải AWS replication agent](../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.4-installawsreplicationagent/)
-+ 4.1.5 [AWS MGN migration lifecycle](../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.5-awsmgnmigrationlifecycle/)
-+ 4.1.6 [Triển khai máy chủ kiểm thử](../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.6-launchtestinstance/)
-+ 4.1.7 [Tắt môi trường nguồn](../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.7-shutdownsourceenvironment/)
-+ 4.1.8 [Triển khai máy chủ chuyển đổi](../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.8-launchcutoverinstance/)
-+ 4.1.9 [Cập nhật DNS và xác nhận các ứng dụng](../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.9-updatednsandvalidatetheapplications/)
-+ 4.1.10 [Hoàn thiện chuyển đổi và lưu trữ máy chủ](../4-migratinginfrastructure/4.1-migratingyourapplication/4.1.10-finalizecutoverandarchiveservers/)
++ 4.1.1 [Cấu hình dịch vụ AWS MGN](4-migratinginfrastructu4.1-migratingyourapplicati4.1.1-configureawsmgnservi)
++ 4.1.2 [Cấu hình target template mặc định](4-migratinginfrastructu4.1-migratingyourapplicati4.1.2-configuredefaulttargettemplat)
++ 4.1.3 [Tạo IAM user cho AWS replication agent](4-migratinginfrastructu4.1-migratingyourapplicati4.1.3-createawsreplicationagentiamus)
++ 4.1.4 [Tải AWS replication agent](4-migratinginfrastructu4.1-migratingyourapplicati4.1.4-installawsreplicationage)
++ 4.1.5 [AWS MGN migration lifecycle](4-migratinginfrastructu4.1-migratingyourapplicati4.1.5-awsmgnmigrationlifecyc)
++ 4.1.6 [Triển khai máy chủ kiểm thử](4-migratinginfrastructu4.1-migratingyourapplicati4.1.6-launchtestinstan)
++ 4.1.7 [Tắt môi trường nguồn](4-migratinginfrastructu4.1-migratingyourapplicati4.1.7-shutdownsourceenvironme)
++ 4.1.8 [Triển khai máy chủ chuyển đổi](4-migratinginfrastructu4.1-migratingyourapplicati4.1.8-launchcutoverinstan)
++ 4.1.9 [Cập nhật DNS và xác nhận các ứng dụng](4-migratinginfrastructu4.1-migratingyourapplicati4.1.9-updatednsandvalidatetheapplicatio)
++ 4.1.10 [Hoàn thiện chuyển đổi và lưu trữ máy chủ](4-migratinginfrastructu4.1-migratingyourapplicati4.1.10-finalizecutoverandarchiveserve)
