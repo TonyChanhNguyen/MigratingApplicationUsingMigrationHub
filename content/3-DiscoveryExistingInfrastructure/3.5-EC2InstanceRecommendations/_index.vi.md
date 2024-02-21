@@ -18,13 +18,13 @@ Trước khi có thể nhận đề xuất phiên bản Amazon EC2, bạn phải
 ### Generating Amazon EC2 Recommendations:
 1. Đi đến [Migration Hub](https://us-west-2.console.aws.amazon.com/migrationhub/home?region=us-west-2#/dashboard).
 2. Tại mục **Asset**. Chọn **EC2 instance recommendations** .
-![EC2 instance recommendations](/images/3.discoveryexistinginfra/3.5ec2recommendation/3.5.1ec2recommendation.png?width=90pc)
+![EC2 instance recommendations](../../../images/3.discoveryexistinginfra/3.5ec2recommendation/3.5.1ec2recommendation.png?width=90pc)
 3. Tại trang  **EC2 instance recommendations**, chọn **Average utilization** bên dưới **Sizing preferences**.
 4. Chọn **US West (Oregon)** tại **Region**.
 5. Chọn **Shared instances** tại **Tenancy**.
 6. Chọn **On-Demand** tại **Pricing model**.
 7. Sau đó, nhấn **Export recommendations**.
-![EC2 instance recommendations](/images/3.discoveryexistinginfra/3.5ec2recommendation/3.5.2ec2recommendation.png?width=90pc)
+![EC2 instance recommendations](../../../images/3.discoveryexistinginfra/3.5ec2recommendation/3.5.2ec2recommendation.png?width=90pc)
 
 8. Khi quá trình hoàn tất, trình duyệt của bạn sẽ tự động tải xuống tệp lưu trữ nén (ZIP), chứa tệp có giá trị (CSV) cùng với các khuyến nghị của bạn.
 9. Kiểm tra tệp khuyến nghị, có các phân tích và khuyến nghị cho hệ thống của bạn. Ví dụ: Khi bạn khiểm tra cột P tên Recommendation.EC2.Instance.Model, it recommend the model for each instance can be at least suitable with this system.  Nó khuyến cáo mô hình cho mỗi máy chủ tối thiểu phù hợp với hệ thống của bạn

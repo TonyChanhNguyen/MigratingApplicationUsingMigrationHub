@@ -11,11 +11,11 @@ pre : " <b> 3.1 </b> "
 3. Click on **Data collectors**.
 4. Choose **Discovery agents** tab.
 5. Enable **Athena export**.
-![Enable Athena](/images/3.discoveryexistinginfra/3.1enableathena/3.1.1enableathena.png?width=90pc)
+![Enable Athena](../../images/3.discoveryexistinginfra/3.1enableathena/3.1.1enableathena.png?width=90pc)
 
 6. Check the *"I understand costs will apply..."* button.
 7. Then click the **Enable** button.
-![Enable Athena](/images/3.discoveryexistinginfra/3.1enableathena/3.1.2enableathena.png?width=90pc)
+![Enable Athena](../../images/3.discoveryexistinginfra/3.1enableathena/3.1.2enableathena.png?width=90pc)
 
 8. Enabling Athena export is processing. It will take several minutes to complete, we can proceed to the next steps.
-![Enable Athena](/images/3.discoveryexistinginfra/3.1enableathena/3.1.3enableathena.png?width=90pc)
+![Enable Athena](../../images/3.discoveryexistinginfra/3.1enableathena/3.1.3enableathena.png?width=90pc)

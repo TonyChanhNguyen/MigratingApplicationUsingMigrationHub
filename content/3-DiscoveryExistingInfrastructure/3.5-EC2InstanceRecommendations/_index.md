@@ -18,13 +18,13 @@ Before you can get Amazon EC2 instance recommendations, you must have data about
 ### Generating Amazon EC2 Recommendations:
 1. Go to [Migration Hub](https://us-west-2.console.aws.amazon.com/migrationhub/home?region=us-west-2#/dashboard).
 2. At **Asset** feature. Choose **EC2 instance recommendations** .
-![EC2 instance recommendations](/images/3.discoveryexistinginfra/3.5ec2recommendation/3.5.1ec2recommendation.png?width=90pc)
+![EC2 instance recommendations](../../images/3.discoveryexistinginfra/3.5ec2recommendation/3.5.1ec2recommendation.png?width=90pc)
 3. At  **EC2 instance recommendations** interface, choose **Average utilization** under **Sizing preferences**.
 4. Choose **US West (Oregon)** at **Region**.
 5. Choose **Shared instances** at **Tenancy**.
 6. Choose **On-Demand** at **Pricing model**.
 7. Then, click on **Export recommendations**.
-![EC2 instance recommendations](/images/3.discoveryexistinginfra/3.5ec2recommendation/3.5.2ec2recommendation.png?width=90pc)
+![EC2 instance recommendations](../../images/3.discoveryexistinginfra/3.5ec2recommendation/3.5.2ec2recommendation.png?width=90pc)
 
 8. When the process is complete, your browser will automatically download a compressed archive (ZIP) file, containing a comma-separated values (CSV) file with your recommendations.
 9. Checking recommendation file, there are analysis and recommendations for your systems. Example: When checking column P name Recommendation.EC2.Instance.Model, it recommend the model for each instance can be at least suitable with this system.

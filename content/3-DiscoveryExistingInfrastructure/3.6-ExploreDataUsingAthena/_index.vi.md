@@ -11,26 +11,26 @@ Sau khi bật Data Exploration trong Amazon Athena, bạn có thể bắt đầu
 1. Đi đến [Server of Migration Hub](https://us-west-2.console.aws.amazon.com/migrationhub/home?region=us-west-2#/discover/servers).
 2. Nhấn nút **Actions**.
 3. Sau đó nhấn **View in Amazon Athena**.
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.1exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.1exploredata.png?width=90pc)
 
 4. Tại trang **Query editor**, chọn tab **Settings**.
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.2exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.2exploredata.png?width=90pc)
 
 5. Sau đó, nhấn **Manage**.
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.3exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.3exploredata.png?width=90pc)
 
 6. Tại trang **Manage settings**, nhấn **Browse S3**.
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.4exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.4exploredata.png?width=90pc)
 
 7.  Chọn tên S3 bucket **aws-application-discovery-service-xxxxxxxxxxxxxxxxxxxxxxxxx**.
 8. Sau đó, chọn **Choose**.
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.5exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.5exploredata.png?width=90pc)
 
 9. Sau đó, nhấn **Save**.
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.6exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.6exploredata.png?width=90pc)
 
 10. Trong tab **Editor**, ở thanh chuyển hướng bên dưới **Database**, đảm bảo rằng *application_discovery_service_database* được chọn.
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.7exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.7exploredata.png?width=90pc)
 
 11. Bên dưới **Tables** các bảng sau đây biểu thị các tập dữ liệu được nhóm theo các agents.
 + os_info_agent
@@ -40,7 +40,7 @@ Sau khi bật Data Exploration trong Amazon Athena, bạn có thể bắt đầu
 + inbound_connection_agent
 + outbound_connection_agent
 + id_mapping_agent
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.8exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.8exploredata.png?width=90pc)
 
 ### Khám phá dữ liệu thu thập được với truy vấn dựng sẵn.
 1. Thêm mã truy vấn vào cửa sổ **Athena's Query Editor**.
@@ -57,14 +57,14 @@ FROM
 , network_interface_agent nic
 WHERE ("os"."agent_id" = "nic"."agent_id");
 ```
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.9exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.9exploredata.png?width=90pc)
 
 3. Để xem truy vấn này trông như thế nào, tìm phần **Views** bên dưới **Tables** của bạn. 
 4. Nhấn vào mục 3 chấm và chọn **Preview View**.
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.10exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.10exploredata.png?width=90pc)
 
 5. Quan sát kết quả.
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.11exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.11exploredata.png?width=90pc)
 
 #### Xác định máy chủ có hoặc không có Agents
 Truy vấn này có thể giúp bạn thực hiện xác thực dữ liệu. Nếu bạn đã triển khai agent trên một số máy chủ trong mạng của mình, bạn có thể sử dụng truy vấn này để tìm hiểu xem có máy chủ nào khác trong mạng của bạn mà không có agent được triển khai trên chúng hay không. Trong truy vấn này, chúng tôi xem xét lưu lượng truy cập mạng vào và ra và chỉ lọc lưu lượng truy cập cho các địa chỉ IP riêng tư. Tức là địa chỉ IP bắt đầu bằng 192, 10 hoặc 172.
@@ -104,7 +104,7 @@ WHERE ((("source_ip" LIKE '192.%')
         OR ("source_ip" LIKE '172.%'));
 
 ```
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.12exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.12exploredata.png?width=90pc)
 
 #### Phân tích dữ liệu hiệu suất hệ thống cho các máy chủ có agent
 Bạn có thể sử dụng truy vấn này để phân tích hiệu suất hệ thống và dữ liệu mẫu sử dụng cho các máy chủ tại chỗ có cài đặt tác nhân trên đó. Truy vấn kết hợp bảng system_performance_agent với bảng os_info_agent để xác định tên máy chủ cho mỗi máy chủ. Truy vấn này trả về dữ liệu sử dụng chuỗi thời gian (trong khoảng thời gian 15 phút) cho tất cả các máy chủ nơi tác nhân đang chạy.
@@ -130,4 +130,4 @@ FROM "sys_performance_agent" "SP" , "OS_INFO_agent" "OS"
 WHERE ("SP"."agent_id" = "OS"."agent_id") limit 10;
 
 ```
-![Explore data using Athena](/images/3.discoveryexistinginfra/3.6exploredata/3.6.13exploredata.png?width=90pc)
+![Explore data using Athena](../../../images/3.discoveryexistinginfra/3.6exploredata/3.6.13exploredata.png?width=90pc)
