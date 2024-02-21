@@ -10,14 +10,14 @@ pre : " <b> 4.2.2  </b> "
 
 1. Đi đến [Subnet Groups of Database Migration Service](https://us-west-2.console.aws.amazon.com/dms/v2/home?region=us-west-2#subnetGroup).
 2. Nhấn **Create subnet group**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.2subnetgroup/4.2.2.1subnetgroup.png?width=90pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.2subnetgroup/4.2.2.1subnetgroup.png?width=90pc)
 
 3. Tại **Name**, nhập ```WP-SubnetGroup```.
 4. Tại **Description**, nhập ```Migration Immersion Day - WordPress Subnet Group```.
 5. Tại **VPC**, chọn **Source** VPC.
 6. Tại **Add subnets**, chọn **SourcePrivate** và **SourcePrivateDB**.
 7. Sau đó, nhấn **Create subnet group**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.2subnetgroup/4.2.2.2subnetgroup.png?width=90pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.2subnetgroup/4.2.2.2subnetgroup.png?width=90pc)
 
 Bây giờ, bạn có một nhóm lớp mạng con được tạo:
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.2subnetgroup/4.2.2.3subnetgroup.png?width=90pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.2subnetgroup/4.2.2.3subnetgroup.png?width=90pc)

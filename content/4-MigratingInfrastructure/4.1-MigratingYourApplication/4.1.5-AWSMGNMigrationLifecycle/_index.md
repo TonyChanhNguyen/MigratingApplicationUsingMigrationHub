@@ -8,10 +8,10 @@ pre : " <b> 4.1.5 </b> "
 
 Now you can monitoring replication progress to know when your migration completed by AWS MGN Migration Life Cycle.
 1. Click on **Source server name** name **ofbiz-web.onpremsim.env**.
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.5lifecycle/4.1.5.1lifecycle.png?width=90pc)
+![Migrating your application](../../../images/4.migrateinfra/4.1migrateapp/4.1.5lifecycle/4.1.5.1lifecycle.png?width=90pc)
 
 2. Now, the migration progress of this instance is in **Not ready** step.
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.5lifecycle/4.1.5.2lifecycle.png?width=90pc)
+![Migrating your application](../../../images/4.migrateinfra/4.1migrateapp/4.1.5lifecycle/4.1.5.2lifecycle.png?width=90pc)
 
 The Lifecycle view shows the current state of each server within the migration lifecycle. And there are 6 states in the migration lifecycle:
 

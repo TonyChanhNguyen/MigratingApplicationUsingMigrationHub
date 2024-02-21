@@ -7,10 +7,10 @@ pre : " <b> 4.1.5  </b> "
 ---
 Bây giờ bạn có thể giám sát quy trình nhân bản để hiểu khi quá trình dịch chuyển của bạn được hoàn tất bởi AWS MGN Migration Life Cycle.
 1. Nhấn **Source server name** tên **ofbiz-web.onpremsim.env**.
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.5lifecycle/4.1.5.1lifecycle.png?width=90pc)
+![Migrating your application](../../../../images/4.migrateinfra/4.1migrateapp/4.1.5lifecycle/4.1.5.1lifecycle.png?width=90pc)
 
 2. Bây giờ, quá trình dịch chuyển của máy chủ này đang ở bước **Not ready**.
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.5lifecycle/4.1.5.2lifecycle.png?width=90pc)
+![Migrating your application](../../../../images/4.migrateinfra/4.1migrateapp/4.1.5lifecycle/4.1.5.2lifecycle.png?width=90pc)
 
 Vòng đời (Life Cycle) thể hiện trạng thai hiện tại của mỗi máy chủ bên trong vòng đời dịch chuyển. Và có 6 trạng thái của dòng đời dịch chuyển:
 

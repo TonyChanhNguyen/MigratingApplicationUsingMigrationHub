@@ -19,14 +19,14 @@ When creating a migration task, you need to know several things:
 ### Create your task
 1. Go to [Database migration tasks](https://us-west-2.console.aws.amazon.com/dms/v2/home?region=us-west-2#tasks).
 2. Click on **Create task**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.1createtask.png?width=90pc)
+![Migrate your database](../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.1createtask.png?width=90pc)
 
 3. At **Task identifier**, input ```WordPress-MySQL-to-Aurora```.
 4. At **Replication instance**, select **mid-repinst-wp**.
 5. At **Source database endpoint**, select **sourcewordpress**.
 6. At **Target database endpoint**, select **targetwordpress**.
 7. At **Migration Type**, select **Migrating existing data**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.2createtask.png?width=90pc)
+![Migrate your database](../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.2createtask.png?width=90pc)
 
 8. In **Table mappings** feature, select **Wizard** at **Editing mode**.
 9. Click on **Add new selection data**.
@@ -34,15 +34,15 @@ When creating a migration task, you need to know several things:
 11. At **Schema name**, select **%**.
 12. At **Table name**, select **%**.
 13. At **Action**, select **Include**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.3createtask.png?width=90pc)
+![Migrate your database](../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.3createtask.png?width=90pc)
 
 14. Then, click on **Create task**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.4createtask.png?width=90pc)
+![Migrate your database](../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.4createtask.png?width=90pc)
 
 15. Now, your replication from the EC2 database instance to Aurora MySQL is running and the data started to be replicated.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.5createtask.png?width=90pc)
+![Migrate your database](../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.5createtask.png?width=90pc)
 
 ### Monitor your task
 
 Now that your migration tasks are running, we have to monitor them and wait until the status **Load complete**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.6createtask.png?width=90pc)
+![Migrate your database](../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.6createtask.png?width=90pc)

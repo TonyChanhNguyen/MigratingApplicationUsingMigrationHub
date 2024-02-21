@@ -30,13 +30,13 @@ echo "update add $HOST 86400 CNAME $ADDR." >> /tmp/nsupdate.txt
 echo "send" >> /tmp/nsupdate.txt
 sudo nsupdate /tmp/nsupdate.txt
 ```
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.1shutdown.png?width=90pc)
+![Migrate your database](../../../images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.1shutdown.png?width=90pc)
 
 5. Verify the DNS name resolution again.
 ```
 nslookup wordpress-db
 ```
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.2shutdown.png?width=90pc)
+![Migrate your database](../../../images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.2shutdown.png?width=90pc)
 
 It was updated to a CNAME pointing to your Aurora database (compare the output with the previous step).
 
@@ -47,6 +47,6 @@ sudo shutdown -h now
 7. From the Bastion Host, test the application using Chrome web browser with this URL http://wordpress-web.onpremsim.env/.
 
 #### This is the expected screen if the migration was successful:
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.3shutdown.png?width=80pc)
+![Migrate your database](../../../images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.3shutdown.png?width=80pc)
 
 ### Congratulations, you had migrated your enterprise servers into AWS successfully.

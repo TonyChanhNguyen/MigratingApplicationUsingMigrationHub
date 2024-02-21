@@ -11,12 +11,12 @@ Now that the OFbiz source servers are shutdown, it's time to update the DNS reco
 1. Go to [EC2 instances](https://us-west-2.console.aws.amazon.com/ec2/home?region=us-west-2#Instances:instanceState=running).
 2. Filter ```ofbiz```, and **Instance state** is **running**.
 3. Save **Private IPv4 addresses** of two servers **ofbiz-db.onpremsim.env** and **ofbiz-web.onpremsim.env**.
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.1dns.png?width=90pc)
+![Migrating your application](../../../images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.1dns.png?width=90pc)
 
 4. From the Bastion host, use Putty to connect to the new IP address.
 + Log in: user
 + Password: 12345678
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.2dns.png?width=90pc)
+![Migrating your application](../../../images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.2dns.png?width=90pc)
 
 5. Run the following command to update the DNS record:
 ```
@@ -33,18 +33,18 @@ echo "send" >> /tmp/nsupdate.txt
 sudo nsupdate /tmp/nsupdate.txt
 ```
 
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.3dns.png?width=90pc)
+![Migrating your application](../../../images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.3dns.png?width=90pc)
 
 6. Repeat the DNS update process with remaining server.
 
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.4dns.png?width=90pc)
+![Migrating your application](../../../images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.4dns.png?width=90pc)
 
 7. Using **Windows PowerShell** of Bastion Host to run those command for performing testing new DNS of servers. 
 ```
 nslookup ofbiz-web.onpremsim.env
 nslookup ofbiz-db.onpremsim.env
 ```
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.5dns.png?width=90pc)
+![Migrating your application](../../../images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.5dns.png?width=90pc)
 
 You can see, returned IP Address is Private IP Address of each instance.
 
@@ -53,4 +53,4 @@ You can see, returned IP Address is Private IP Address of each instance.
 + App username: admin
 + App password: ofbiz
 
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.6dns.png?width=90pc)
+![Migrating your application](../../../images/4.migrateinfra/4.1migrateapp/4.1.9dns/4.1.9.6dns.png?width=90pc)

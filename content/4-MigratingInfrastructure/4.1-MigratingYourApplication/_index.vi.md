@@ -11,7 +11,7 @@ pre : " <b> 4.1 </b> "
 
 
 ### Nó hoạt động như thế nào?
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.1migrateapp.png?width=90pc)
+![Migrating your application](../../../images/4.migrateinfra/4.1migrateapp/4.1.1migrateapp.png?width=90pc)
 
 ### Lợi ích của Application Migration Service bao gồm:
 + Thời gian chuyển đổi trong vài phút và không mất dữ liệu

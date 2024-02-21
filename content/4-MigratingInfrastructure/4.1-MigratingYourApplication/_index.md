@@ -8,7 +8,7 @@ pre : " <b> 4.1 </b> "
 ### MGN
 [AWS Application Migration Service (AWS MGN)](https://aws.amazon.com/application-migration-service/) is a highly automated solution that simplifies, expedites, and reduces the cost of migrating and modernizing applications. It allows companies to migrate a large number of physical, virtual, and cloud servers without compatibility issues, performance disruption, or long cutover windows. AWS MGN continuously replicates source servers to your AWS account. When you’re ready, it automatically converts and launches your servers on AWS so you can quickly benefit from the cost savings, productivity, resilience, and agility of the Cloud. In addition, AWS MGN allows you to modernize launched applications by running pre-configured actions.
 ### How it works?
-![Migrating your application](/images/4.migrateinfra/4.1migrateapp/4.1.1migrateapp.png?width=90pc)
+![Migrating your application](../../images/4.migrateinfra/4.1migrateapp/4.1.1migrateapp.png?width=90pc)
 
 ### Benefits of Application Migration Service include:
 + Cutover windows of minutes and no data loss.

@@ -30,13 +30,13 @@ echo "update add $HOST 86400 CNAME $ADDR." >> /tmp/nsupdate.txt
 echo "send" >> /tmp/nsupdate.txt
 sudo nsupdate /tmp/nsupdate.txt
 ```
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.1shutdown.png?width=90pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.1shutdown.png?width=90pc)
 
 5. Xác minh lại độ phân giải tên DNS.
 ```
 nslookup wordpress-db
 ```
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.2shutdown.png?width=90pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.2shutdown.png?width=90pc)
 
 CNAME đã được cập nhật để được trỏ tới CSDL Aurora (so sánh kết quả đầu ra với bước trước đó).
 6. Tắt máy chủ CSDL nguồn.
@@ -46,6 +46,6 @@ sudo shutdown -h now
 7. Từ máy chủ Bastion Host, kiểm tra ứng dụng của bạn sử dụng trình duyệt web với đường dẫn URL http://wordpress-web.onpremsim.env/.
 
 #### Đây là màn hình mong đợi nếu dịch chuyển thành công:
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.3shutdown.png?width=80pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.6shutdown/4.2.6.3shutdown.png?width=80pc)
 
 ### Chúc mừng, bạn vừa dịch chuyển các máy chủ của doanh nghiệp bạn lên AWS thành công.

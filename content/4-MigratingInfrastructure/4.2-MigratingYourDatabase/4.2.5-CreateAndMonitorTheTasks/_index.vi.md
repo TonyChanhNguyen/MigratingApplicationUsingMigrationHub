@@ -18,14 +18,14 @@ Khi tạo một tác vụ di chuyển, bạn cần biết một số điều:
 ### Tạo tác vụ của bạn
 1. Đi đến [Database migration tasks](https://us-west-2.console.aws.amazon.com/dms/v2/home?region=us-west-2#tasks).
 2. Nhấn **Create task**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.1createtask.png?width=90pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.1createtask.png?width=90pc)
 
 3. Tại **Task identifier**, nhập ```WordPress-MySQL-to-Aurora```.
 4. Tại **Replication instance**, chọn **mid-repinst-wp**.
 5. Tại **Source database endpoint**, chọn **sourcewordpress**.
 6. Tại **Target database endpoint**, chọn **targetwordpress**.
 7. Tại **Migration Type**, chọn **Migrating existing data**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.2createtask.png?width=90pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.2createtask.png?width=90pc)
 
 8. Trong tính năng **Table mappings**, chọn **Wizard** tại **Editing mode**.
 9. Nhấn **Add new selection data**.
@@ -33,15 +33,15 @@ Khi tạo một tác vụ di chuyển, bạn cần biết một số điều:
 11. Tại **Schema name**, chọn **%**.
 12. Tại **Table name**, chọn **%**.
 13. Tại **Action**, chọn **Include**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.3createtask.png?width=90pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.3createtask.png?width=90pc)
 
 14. Sau đó, nhấn **Create task**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.4createtask.png?width=90pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.4createtask.png?width=90pc)
 
 15. Hiện tại, bản sao của bạn từ máy chủ CSDL EC2 đến Aurora MySQL đang chạy và dữ liệu bắt đầu nhân bản.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.5createtask.png?width=90pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.5createtask.png?width=90pc)
 
 ### Giám sát tác vụ của bạn
 
 Bây giờ tác vụ dịch chuyển của bạn đang hoạt động, chúng ta có thể giám sát chúng và đợi khi trạng thái **Load complete**.
-![Migrate your database](/images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.6createtask.png?width=90pc)
+![Migrate your database](../../../../images/4.migrateinfra/4.2migratedb/4.2.5createtask/4.2.5.6createtask.png?width=90pc)
